@@ -1,0 +1,77 @@
+body {
+	color: black;
+	background: rgb(244, 244, 242);
+	font-family: lobster;
+}
+
+H1	{
+	text-decoration: underline;
+	color:black ;
+	font-family: lobster;
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 2px 0px darkgrey;
+}
+
+h2 {
+	text-decoration: underline;
+	color:black ;
+}
+
+H3  {
+	text-decoration: underline;
+	color: blahiteck ;
+}
+
+p {
+	font-size: 15px;
+}
+
+a {
+	color: black;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+div {
+	background: rgb(212, 212, 212);
+	border: 2px solid black;
+	margin: 8px;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 35px black;
+}
+
+img.displayed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25%;
+	border: 2px solid black;
+	box-shadow: 0px 0px 35px black;
+	}
+
+.container {
+  width: 650px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+	background: rgb(232, 232, 232);
+	border: 2px solid black;
+	margin: 8px;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 35px black;
+}
+
+.flex-container
+ {
+	justify-content: space-around;
+	align-items: center;
+}
